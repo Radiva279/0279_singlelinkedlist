@@ -89,3 +89,12 @@ public:
         delete current;
         return true;
     }
+
+    void traverse()
+    {
+        if (ListEmpty())
+        {
+            cout << "\nList Kosong\n";
+        }
+        else
+        {

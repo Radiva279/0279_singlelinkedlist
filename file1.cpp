@@ -9,3 +9,13 @@ public:
     Node *next;
 };
 
+class SingleLinkedList
+{
+    Node *START;
+
+public:
+    SingleLinkedList()
+    {
+        START = NULL;
+    }
+
